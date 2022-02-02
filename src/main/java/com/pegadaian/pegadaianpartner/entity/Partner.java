@@ -26,13 +26,13 @@ public class Partner {
     private String status;
 
     @Column(length = 10)
-    private String created_date;
+    private Long created_date;
 
     @Column(length = 100)
     private String created_by;
 
     @Column(length = 10)
-    private String modified_date;
+    private Long modified_date;
 
     @Column(length = 100)
     private String modified_by;
